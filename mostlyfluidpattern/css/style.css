@@ -1,0 +1,22 @@
+.fluid > div {
+  padding: 1em;
+}
+
+.first {
+  background-color: #8e352e;
+}
+
+.second {
+  background-color: #c84c44;
+}
+
+.third{
+  background-color: #a53d36;
+}
+
+@media screen and (min-width: 31.42em) {
+  .second, .third {
+    float: left;
+    width: 50%;
+  }
+}
